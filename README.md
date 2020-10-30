@@ -14,7 +14,7 @@ composer --version
 ## Install  DB Mysql
 
 ## Run
-
+```
 composer create-project --prefer-dist laravel/laravel blog
 cd blog
 cp .env.example .env
@@ -22,6 +22,7 @@ composer install
 php artisan cache:clear
 php artisan config:cache
 php  artisan  serve
+```
 
 ##
 
