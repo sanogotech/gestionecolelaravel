@@ -19,11 +19,13 @@ composer create-project --prefer-dist laravel/laravel blog
 cd blog
 cp .env.example .env
 composer install
+composer require doctrine/dbal
 php artisan cache:clear
 php artisan config:cache
 php  artisan  serve
 ```
 
+**add extension=pdo_mysql  // php.ini
 ##
 
 http://localhost:8000/register
