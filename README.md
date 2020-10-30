@@ -26,6 +26,8 @@ php  artisan  serve
 ```
 
 **add extension=pdo_mysql  // php.ini
+
+https://docs.faircom.com/doc/php/InstallPHP7withthePDOExtension.htm
 ##
 
 http://localhost:8000/register
